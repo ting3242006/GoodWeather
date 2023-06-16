@@ -26,7 +26,7 @@ class AddWeatherCityViewController: UIViewController {
     
     @IBAction func saveCityButtonPressed(_ sender: Any) {
         
-        if let city = cityNameTextField.text {
+//        if let city = cityNameTextField.text {
             
             if let city = cityNameTextField.text {
                 addWeatherVM.addWeather(for: city) { (vm) in
@@ -45,7 +45,7 @@ class AddWeatherCityViewController: UIViewController {
 //            Webservice().load(resource: weatherResource) { result in
 //
 //            }
-        }
+//        }
     }
     
     @IBAction func close(_ sender: Any) {
